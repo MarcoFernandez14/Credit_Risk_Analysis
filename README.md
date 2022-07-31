@@ -53,6 +53,8 @@ The analysis performed utilizes several machine learning models and techniques s
 * Recall: high_risk = 67% , low_risk = 91%
 
 ## Summary
-Summary: Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
+In terms of balanced accuracy, Easy Ensemble AdaBoost Classifier seems to the best model (none of the other models is above 80%).  
+The precision is similar in all models: low for high_risk loans and high for low_risk loans.  
+The recall indicator varies from model to model and it shows high percentages in Easy Ensemble AdaBoost Classifier.
+Considering the balance accuracy and recall scores, Easy Ensemble AdaBoost Classifier is the recommended machine learning model for this case.
 
-![]()
