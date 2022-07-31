@@ -6,7 +6,7 @@ Libraries: numpy, pandas, scikit-learn, imblearn
 
 ## Overview
 A lending service company wants to use machine learning to predict credit risk in order to provide a quicker and more reliable lending experience. This company is also interested in the accurate identification of good candidates for loans.  
-The analysis performed utilizes several machine learning models and techniques such as re-sampling and boosting. The models performance is evaluated to see how accurate the predictions are.
+The analysis performed utilizes several machine learning models and techniques such as re-sampling and boosting. The models' performance is evaluated to see how accurate the predictions are.
 
 
 ## Results  
@@ -53,8 +53,8 @@ The analysis performed utilizes several machine learning models and techniques s
 * Recall: high_risk = 67% , low_risk = 91%
 
 ## Summary
-In terms of balanced accuracy, Easy Ensemble AdaBoost Classifier seems to the best model (none of the other models is above 80%).  
-The precision is similar in all models: low for high_risk loans and high for low_risk loans.  
-The recall indicator varies from model to model and it shows high percentages in Easy Ensemble AdaBoost Classifier.
-Considering the balance accuracy and recall scores, Easy Ensemble AdaBoost Classifier is the recommended machine learning model for this case.
+In terms of balanced accuracy, Easy Ensemble AdaBoost Classifier seems to the best model (none of the other models is above 80%).    
+The precision is similar in all models: low for high_risk loans and high for low_risk loans.    
+The recall indicator varies from model to model, and it shows high percentages in Easy Ensemble AdaBoost Classifier.  
+Considering the balance accuracy and recall scores, Easy Ensemble AdaBoost Classifier is the recommended machine learning model for this case despite its relatively low precision for high_risk loans.
 
