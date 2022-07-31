@@ -5,7 +5,8 @@ Language: Python
 Libraries: numpy, pandas, scikit-learn, imblearn  
 
 ## Overview
-Overview of the analysis: Explain the purpose of this analysis.
+A lending service company wants to use machine learning to predict credit risk in order to provide a quicker and more reliable lending experience. This company is also interested in the accurate identification of good candidates for loans.  
+The analysis performed utilizes several machine learning models and techniques such as re-sampling and boosting. The models performance is evaluated to see how accurate the predictions are.
 
 
 ## Results
